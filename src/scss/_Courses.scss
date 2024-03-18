@@ -1,0 +1,11 @@
+/* Courses */
+
+#Courses {
+    height: calc(100vh - 124px);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: map-get($colores, color-1);
+    padding-top: 30px;
+}

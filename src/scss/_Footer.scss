@@ -1,0 +1,22 @@
+/* Footer */
+
+#Footer {
+
+    background-color: map-get($colores, color-1);
+    border-top: 2px solid map-get($colores, color-6);
+    color: map-get($colores, color-6);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    h3 {
+        margin: 0px 30px 0px 30px;
+        .svg { 
+            margin: 0px 10px 0px 10px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+}

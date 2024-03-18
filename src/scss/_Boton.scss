@@ -1,0 +1,15 @@
+/* Boton */
+
+#Boton {
+    height: 40px;
+    width: 90px;
+    background-color: map-get($colores, color-6);
+    border-radius: 10px;
+    color: map-get($colores, color-1);
+    border: 2px solid map-get($colores, color-6);
+    
+    &:active {
+        background-color: map-get($colores, color-5);
+        border: 2px solid map-get($colores, color-5);
+    }
+}
