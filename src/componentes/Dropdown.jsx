@@ -6,7 +6,7 @@ const Dropdown = () => {
   return (
     <div className="dropdown" id="Dropdown">
         <button className="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
-           Menu
+          Menu
         </button>
         <ul className="dropdown-menu">
             <NavLink to={"/"}><button className="dropdown-item" type="button">Name</button></NavLink>

@@ -1,0 +1,14 @@
+/* Heart */
+
+#Heart {
+
+    .svg { 
+        margin: 0px 10px 0px 10px;
+        height: 40px;
+        width: 40px;
+        color: map-get($colores, color-6);
+        &:hover {
+            color: map-get($colores, color-5);
+        }
+    }    
+}
