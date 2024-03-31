@@ -5,8 +5,9 @@ import Diploma from "./Diploma";
 const Courses = () => {
   return (
     <section id="Courses">
-       <Diploma img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2FDesarrollo-Web.webp?alt=media&token=429719e0-7eac-43b8-817a-0e97defb18f1" titulo="Desarrollo-Web"/>
-       <Diploma img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2FJavaScript.webp?alt=media&token=459ba59d-2d90-418b-86d7-3322f2e9ea68" titulo="JavaScript"/>
+       <Diploma img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2FDesarrollo-Web.png?alt=media&token=d99e91e5-fc34-4281-b9fc-cc9ebe3d7f40" titulo="Desarrollo-Web"/>
+       <Diploma img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2FJavaScript.png?alt=media&token=28edb74b-2a6d-42ee-9cfd-88601bb604bc" titulo="JavaScript"/>
+       <Diploma img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2FDiploma%20React%20Js.png?alt=media&token=d3b78ca1-1680-46ce-b60f-d0b644aaee94" titulo="React Js"/>
     </section>
   )
 }; export default Courses;
