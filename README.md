@@ -10,4 +10,4 @@ Currently, two official plugins are available:
 
 /* Link */
 
-https://66009e5489da713082192e2a--delightful-manatee-fce081.netlify.app/
+https://jose-pablo-lubiano.netlify.app/
