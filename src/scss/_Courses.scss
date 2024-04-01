@@ -8,4 +8,5 @@
     align-items: center;
     background-color: map-get($colores, color-1);
     padding-top: 30px;
+    overflow-y: scroll;
 }
