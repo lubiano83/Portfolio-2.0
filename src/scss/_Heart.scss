@@ -9,6 +9,7 @@
         color: map-get($colores, color-6);
         &:hover {
             color: map-get($colores, color-5);
+            scale: 1.1;
         }
     }    
 }
