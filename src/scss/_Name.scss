@@ -1,7 +1,7 @@
 /* Name */
 
 #Name {
-    height: calc(100vh - 124px);
+    min-height: calc(100vh - 124px);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -9,6 +9,7 @@
     text-shadow: 3px 3px 3px map-get($colores, color-4);
     background-color: map-get($colores, color-1);
     text-align: center;
+    overflow-y: scroll;
     .display-1 {
         color: map-get($colores, color-6);
         margin: 0px 30px 0px 30px;

@@ -1,7 +1,6 @@
 /* About */
 
 #About {
-    width: 100vw;
     min-height: calc(100vh - 124px);
     display: flex;
     flex-flow: column nowrap;
@@ -9,6 +8,7 @@
     align-items: center;
     background-color: map-get($colores, color-1);
     padding-top: 30px;
+    overflow-y: scroll;
     img {
         width: 40%;
         max-width: 1000px;
