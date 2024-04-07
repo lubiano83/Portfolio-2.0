@@ -22,7 +22,7 @@ const Tools = () => {
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fhtml5.webp?alt=media&token=ab785932-cba3-4222-a639-03d2090b4d16" label="html"/>
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fcss3.webp?alt=media&token=dab091b7-f701-454f-be75-077c538d2951" label="css"/>
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fbootstrap.webp?alt=media&token=39fff7a0-e92e-411d-b2ef-b8e08e628ed2" label="bootstrap" />
-                <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fsass.webp?alt=media&token=d27459da-08dd-407b-bd13-9035085df9ce" label="sass"/>
+                <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fsass.webp?alt=media&token=c92a218b-3642-4bd1-81e6-1ed1ea9924dd" label="sass"/>
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fjs.webp?alt=media&token=0ae817a1-d034-40fb-b46d-f2a4d0212b6b" label="javascript"/>
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Freactjs.webp?alt=media&token=8d0af832-6de8-4b49-893c-3ce3ea6a01ef" label="react"/>
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Freact-native.webp?alt=media&token=ea48014c-0134-4173-a0de-c460d38133c6" label="react-native"/>
@@ -33,7 +33,7 @@ const Tools = () => {
           <h2>Back-End:</h2>
           <div className="back-end__contenedor">
               <Foto id="firebase" img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Ffirebase.webp?alt=media&token=e33c7216-209b-42e6-ac26-054d21fbeb38" label="firebase"/>
-              <Foto id="api" img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fapi.webp?alt=media&token=5f97f5da-3d00-4a1a-83ad-d5408160aab3" label="api"/>
+              <Foto id="api" img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fapi.webp?alt=media&token=cd530749-e3e6-449d-a4d0-5a5f6bf6e0fd" label="api"/>
           </div>
         </article> }
         { mostrar2 &&

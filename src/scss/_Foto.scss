@@ -7,7 +7,6 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #html__foto{
             width: 100%;
@@ -21,7 +20,6 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #css__foto{
             width: 100%;
@@ -35,13 +33,12 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #bootstrap__foto{
             height: 100%;
             width: 100%;
             object-fit: contain;
-            scale: 1;
+            scale: 1.4;
         }
     }
 
@@ -49,13 +46,13 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #sass__foto{
             height: 100%;
             width: 100%;
+            object-position: -3px;
             object-fit: contain;
-            scale: 1;
+            scale: 1.9;
         }
     }
 
@@ -63,7 +60,6 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #javascript__foto{
             height: 100%;
@@ -77,7 +73,6 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #react__foto{
             height: 100%;
@@ -91,7 +86,6 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #react-native__foto{
             height: 100%;
@@ -107,7 +101,6 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #firebase__foto{
             height: 100%;
@@ -125,13 +118,14 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
+        
         #api__foto{
             height: 100%;
             width: 100%;
             object-fit: contain;
-            scale: 1.6;
+            scale: 2.7;
+            object-position: 0px 27px;
         }
     }
 }
@@ -143,7 +137,6 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #github__foto{
             height: 100%;
@@ -156,7 +149,6 @@
         width: 125px;
         height: 125px;
         overflow: hidden;
-        background-color: white;
         border-radius: 10px;
         #filezilla__foto{
             height: 100%;
