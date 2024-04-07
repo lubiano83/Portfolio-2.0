@@ -97,6 +97,8 @@
 }
 
 .back-end__contenedor {
+    gap: 30px;
+    margin: 30px;
     #firebase {
         width: 125px;
         height: 125px;
@@ -107,13 +109,9 @@
             width: 100%;
             object-fit: contain;
             scale: 1.6;
+            object-position: -2px;
         }
     }
-}
-
-.back-end__contenedor {
-    gap: 30px;
-    margin: 30px;
     #api {
         width: 125px;
         height: 125px;
@@ -154,7 +152,8 @@
             height: 100%;
             width: 100%;
             object-fit: contain;
-            scale: 1.6;
+            scale: 1.5;
+            object-position: -3px;
         }
     }
 }
