@@ -1,12 +1,168 @@
 /* Foto */
 
-#Foto {
-    width: 125px;
-    height: 125px;
-    margin: 0px 15px 30px 15px;
-    .img {
+.front-end__contenedor {
+    gap: 30px;
+    margin: 30px;
+    #html {
+        width: 125px;
+        height: 125px;
         overflow: hidden;
-        width: 100%;
-        aspect-ratio: 1/1;
+        background-color: white;
+        border-radius: 10px;
+        #html__foto{
+            width: 100%;
+            object-fit: contain;
+            object-fit: contain;
+            scale: 1;
+        }
+    }
+
+    #css {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #css__foto{
+            width: 100%;
+            object-fit: contain;
+            object-fit: contain;
+            scale: 1;
+        }
+    }
+
+    #bootstrap {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #bootstrap__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1;
+        }
+    }
+
+    #sass {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #sass__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1;
+        }
+    }
+
+    #javascript {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #javascript__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1.7;
+        }
+    }
+
+    #react {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #react__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1.5;
+        }
+    }
+
+    #react-native {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #react-native__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1.8;
+        }
+    }
+}
+
+.back-end__contenedor {
+    #firebase {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #firebase__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1.6;
+        }
+    }
+}
+
+.back-end__contenedor {
+    gap: 30px;
+    margin: 30px;
+    #api {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #api__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1.6;
+        }
+    }
+}
+
+.tools__contenedor {
+    gap: 30px;
+    margin: 30px;
+    #github {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #github__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1;
+        }
+    }
+    #filezilla {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        #filezilla__foto{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            scale: 1.6;
+        }
     }
 }

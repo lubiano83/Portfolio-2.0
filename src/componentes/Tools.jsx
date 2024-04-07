@@ -25,7 +25,7 @@ const Tools = () => {
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fsass.webp?alt=media&token=d27459da-08dd-407b-bd13-9035085df9ce" label="sass"/>
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fjs.webp?alt=media&token=0ae817a1-d034-40fb-b46d-f2a4d0212b6b" label="javascript"/>
                 <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Freactjs.webp?alt=media&token=8d0af832-6de8-4b49-893c-3ce3ea6a01ef" label="react"/>
-                <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Freact-native.webp?alt=media&token=ea48014c-0134-4173-a0de-c460d38133c6" label="react native"/>
+                <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Freact-native.webp?alt=media&token=ea48014c-0134-4173-a0de-c460d38133c6" label="react-native"/>
             </div>
         </article> }
         {mostrar1 && 
