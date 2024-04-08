@@ -33,7 +33,6 @@ const Tools = () => {
           <h2>Back-End:</h2>
           <div className="back-end__contenedor">
               <Foto id="firebase" img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Ffirebase.webp?alt=media&token=e33c7216-209b-42e6-ac26-054d21fbeb38" label="firebase"/>
-              <Foto id="api" img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fapi.webp?alt=media&token=cd530749-e3e6-449d-a4d0-5a5f6bf6e0fd" label="api"/>
           </div>
         </article> }
         { mostrar2 &&
