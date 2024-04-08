@@ -3,10 +3,9 @@
 #Diploma {
     width: 30%;
     min-width: 300px;
-    object-fit: contain;
     margin: 0px 30px 30px 30px;
     .Diploma__foto {
         width: 100%;
-        height: 100%;
+        object-fit: contain;
     }
 }
