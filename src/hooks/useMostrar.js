@@ -4,9 +4,9 @@ import { useState } from "react";
 
 export const useMostrar = () => {
 
-    const [mostrar, setMostrar] = useState(false);
-    const [mostrar1, setMostrar1] = useState(false);
-    const [mostrar2, setMostrar2] = useState(false);
+    const [mostrar, setMostrar] = useState(true);
+    const [mostrar1, setMostrar1] = useState(true);
+    const [mostrar2, setMostrar2] = useState(true);
 
 
     const handleMostrar = () => {

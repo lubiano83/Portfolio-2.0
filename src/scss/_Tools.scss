@@ -3,32 +3,38 @@
 #Tools {
     min-height: calc(100vh - 117px);
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     background-color: map-get($colores, color-1);
-    padding-top: 170px;
+    padding-top: 30px;
     .Tools__botones {
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
         gap: 15px;
-        position: absolute;
-        top: 90px;
         .botones__container {
             display: flex;
             flex-flow: row wrap;
-            justify-content: center;
-            align-items: flex-start;
+            justify-content: space-evenly;
+            align-items: center;
             gap: 15px;
+            margin-bottom: 30px;
         }
     }
+    .Tools__Foto {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
     .Tools__front-end {
-        max-width: 675px;
+        max-width: 515px;
         width: 80%;
         min-width: 300px;
         height: auto;
+        min-height: 315px;
         box-shadow: 3px 3px 3px map-get($colores, color-6);
         border: 2px solid map-get($colores, color-6);
         border-radius: 20px;
@@ -52,6 +58,7 @@
         width: 80%;
         min-width: 300px;
         height: auto;
+        min-height: 315px;
         box-shadow: 3px 3px 3px map-get($colores, color-6);
         border: 2px solid map-get($colores, color-6);
         border-radius: 20px;
@@ -75,6 +82,7 @@
         width: 80%;
         min-width: 300px;
         height: auto;
+        min-height: 315px;
         box-shadow: 3px 3px 3px map-get($colores, color-6);
         border: 2px solid map-get($colores, color-6);
         border-radius: 20px;

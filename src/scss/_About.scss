@@ -12,11 +12,20 @@
     #Titulo {
         margin-bottom: 30px;
     }
-    img {
-        width: 40%;
+    .About__img {
+        width: 80%;
         max-width: 1000px;
         min-width: 300px;
         margin: 0px 30px 30px 30px;
+        aspect-ratio: 1/0.72;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 100%;
+            object-fit: contain;
+            
+        }
     }
     .About__texto{
         width: 80%;
