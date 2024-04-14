@@ -1,7 +1,7 @@
 /* Name */
 
-import Boton from "./Boton";
-import Titulo from "./Titulo";
+import Boton from "../componentes/Boton";
+import Titulo from "../componentes/Titulo";
 
 const Name = () => {
 

@@ -14,6 +14,7 @@ const Dropdown = () => {
             <NavLink to={"/Tools"}><button className="dropdown-item" type="button">Tools</button></NavLink>
             <NavLink to={"/Works"}><button className="dropdown-item" type="button">Works</button></NavLink>
             <NavLink to={"/About"}><button className="dropdown-item" type="button">About</button></NavLink>
+            <NavLink to={"/Contact"}><button className="dropdown-item" type="button">Contact</button></NavLink>
         </ul>
     </div>
   )

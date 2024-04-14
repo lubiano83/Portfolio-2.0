@@ -1,7 +1,7 @@
 /* Works */
 
-import Titulo from "./Titulo";
-import WorksImg from "./WorksImg";
+import Titulo from "../componentes/Titulo";
+import WorksImg from "../componentes/WorksImg";
 
 const Works = () => {
   return (

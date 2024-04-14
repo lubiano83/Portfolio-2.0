@@ -1,8 +1,8 @@
 /* Tools */
 
-import Foto from "./Foto";
-import Boton from "./Boton";
-import Titulo from "./Titulo";
+import Foto from "../componentes/Foto";
+import Boton from "../componentes/Boton";
+import Titulo from "../componentes/Titulo";
 import { useMostrar } from "../hooks/useMostrar";
 
 const Tools = () => {

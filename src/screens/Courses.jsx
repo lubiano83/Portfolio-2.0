@@ -1,7 +1,7 @@
 /* Studies */
 
-import Diploma from "./Diploma";
-import Titulo from "./Titulo";
+import Diploma from "../componentes/Diploma";
+import Titulo from "../componentes/Titulo";
 
 const Courses = () => {
   return (

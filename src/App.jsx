@@ -1,12 +1,13 @@
 /* App */
 
-import About from "./componentes/About";
+import About from "./screens/About";
 import Footer from "./componentes/Footer";
 import Header from "./componentes/Header";
-import Name from "./componentes/Name";
-import Courses from "./componentes/Courses";
-import Tools from "./componentes/Tools";
-import Works from "./componentes/Works";
+import Name from "./screens/Name";
+import Courses from "./screens/Courses";
+import Tools from "./screens/Tools";
+import Works from "./screens/Works";
+import Contact from "./screens/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Tools" element={ <Tools /> } />
           <Route path="/Works" element={ <Works /> } />
           <Route path="/About" element={ <About /> } />
+          <Route path="/Contact" element={ <Contact /> } />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -1,6 +1,6 @@
 /* About */
 
-import Titulo from "./Titulo";
+import Titulo from "../componentes/Titulo";
 
 const About = () => {
   return (
