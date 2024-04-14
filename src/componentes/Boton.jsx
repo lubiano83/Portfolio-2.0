@@ -1,7 +1,7 @@
 /* Boton */
 
-const Boton = ({label, handleClick}) => {
+const Boton = ({label, handleClick, href}) => {
   return (
-      <button id="Boton" onClick={handleClick}>{label}</button>
+      <button id="Boton" onClick={handleClick} href={href}>{label}</button>
   )
 }; export default Boton;

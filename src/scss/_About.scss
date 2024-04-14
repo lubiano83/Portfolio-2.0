@@ -1,14 +1,17 @@
 /* About */
 
 #About {
-    min-height: calc(100vh - 124px);
+    min-height: calc(100vh - 117px);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     background-color: map-get($colores, color-1);
-    padding-top: 30px;
     overflow-y: scroll;
+    padding-top: 30px;
+    #Titulo {
+        margin-bottom: 30px;
+    }
     img {
         width: 40%;
         max-width: 1000px;

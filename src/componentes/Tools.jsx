@@ -2,6 +2,7 @@
 
 import Foto from "./Foto";
 import Boton from "./Boton";
+import Titulo from "./Titulo";
 import { useMostrar } from "../hooks/useMostrar";
 
 const Tools = () => {
@@ -11,9 +12,12 @@ const Tools = () => {
   return (
     <section id="Tools">
         <div className="Tools__botones">
-          <Boton label="Front-End" className="front-end" handleClick={handleMostrar}/>
-          <Boton label="Back-End" className="back-end" handleClick={handleMostrar1}/>
-          <Boton label="Tools" className="tools" handleClick={handleMostrar2}/>
+          <Titulo title="My Tools:"/>
+          <div className="botones__container">
+            <Boton label="Front-End" className="front-end" handleClick={handleMostrar}/>
+            <Boton label="Back-End" className="back-end" handleClick={handleMostrar1}/>
+            <Boton label="Tools" className="tools" handleClick={handleMostrar2}/>
+          </div>
         </div>
         { mostrar && 
         <article className="Tools__front-end animate__animated animate__bounceIn">

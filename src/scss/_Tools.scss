@@ -1,21 +1,28 @@
 /* Tools */
 
 #Tools {
-    min-height: calc(100vh - 124px);
+    min-height: calc(100vh - 117px);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     background-color: map-get($colores, color-1);
-    padding-top: 110px;
+    padding-top: 170px;
     .Tools__botones {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: column nowrap;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         gap: 15px;
         position: absolute;
-        top: 100px;
+        top: 90px;
+        .botones__container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 15px;
+        }
     }
     .Tools__front-end {
         max-width: 675px;

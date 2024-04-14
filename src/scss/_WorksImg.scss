@@ -25,12 +25,16 @@
         flex-flow: column nowrap;
         justify-content: space-between;
         align-items: center;
+        &:hover {
+            z-index: 3;
+        }
         h5 {
-            text-align: justify;
+            text-align: center;
             color: map-get($colores, color-1);
             text-shadow: none;
-            margin: 10px;
+            margin: 20px;
         }
+       
     }
     
 }
