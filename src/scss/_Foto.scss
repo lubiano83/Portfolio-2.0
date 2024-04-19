@@ -4,27 +4,27 @@
     gap: 30px;
     margin: 30px;
     #html {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
         #html__foto{
             width: 100%;
-            object-fit: contain;
-            object-fit: contain;
+            aspect-ratio: 1/1;
             scale: 1;
         }
     }
 
     #css {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
         #css__foto{
             width: 100%;
-            object-fit: contain;
-            object-fit: contain;
+            aspect-ratio: 1/1;
             scale: 1;
         }
     }
@@ -35,63 +35,64 @@
         overflow: hidden;
         border-radius: 10px;
         #bootstrap__foto{
-            height: 100%;
             width: 100%;
-            object-fit: contain;
-            scale: 1.4;
+            aspect-ratio: 1/1;
+            scale: 1;
         }
     }
 
     #sass {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
         #sass__foto{
-            height: 100%;
             width: 100%;
-            object-position: -2px;
-            object-fit: contain;
-            scale: 1.9;
+            aspect-ratio: 1/1;
+            scale: 0.9;
         }
     }
 
     #javascript {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
         #javascript__foto{
-            height: 100%;
             width: 100%;
-            object-fit: contain;
-            scale: 1.8;
+            aspect-ratio: 1/1;
+            scale: 1;
         }
     }
 
     #react {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
         #react__foto{
-            height: 100%;
             width: 100%;
-            object-fit: contain;
-            scale: 1.5;
+            aspect-ratio: 1/1;
+            scale: 0.9;
         }
     }
 
-    #react-native {
+    #redux {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
-        #react-native__foto{
+        #redux__foto{
             height: 100%;
-            width: 100%;
-            object-fit: contain;
-            scale: 1.8;
+            aspect-ratio: 1/1;
+            scale: 0.9;
+            
+
+            
         }
     }
 }
@@ -100,16 +101,15 @@
     gap: 30px;
     margin: 30px;
     #firebase {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
         #firebase__foto{
-            height: 100%;
             width: 100%;
-            object-fit: contain;
-            scale: 1.6;
-            object-position: -2px;
+            aspect-ratio: 1/1;
+            scale: 0.9;
         }
     }
 }
@@ -118,28 +118,27 @@
     gap: 30px;
     margin: 30px;
     #github {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
         #github__foto{
-            height: 100%;
             width: 100%;
-            object-fit: contain;
-            scale: 1;
+            aspect-ratio: 1/1;
+            scale: 0.9;
         }
     }
     #filezilla {
+        background-color: white;
         width: 75px;
         height: 75px;
         overflow: hidden;
         border-radius: 10px;
         #filezilla__foto{
-            height: 100%;
             width: 100%;
-            object-fit: contain;
-            scale: 1.5;
-            object-position: -3px;
+            aspect-ratio: 1/1;
+            scale: 0.9;
         }
     }
 }
