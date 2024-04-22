@@ -4,6 +4,7 @@
     gap: 30px;
     margin: 30px;
     #html {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
@@ -17,6 +18,7 @@
     }
 
     #css {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
@@ -30,6 +32,8 @@
     }
 
     #bootstrap {
+        background-color: white;
+        border: 1px solid map-get($colores, color-6);
         width: 75px;
         height: 75px;
         overflow: hidden;
@@ -42,6 +46,7 @@
     }
 
     #sass {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
@@ -55,6 +60,7 @@
     }
 
     #javascript {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
@@ -68,6 +74,7 @@
     }
 
     #react {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
@@ -81,6 +88,7 @@
     }
 
     #redux {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
@@ -101,6 +109,7 @@
     gap: 30px;
     margin: 30px;
     #firebase {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
@@ -118,6 +127,7 @@
     gap: 30px;
     margin: 30px;
     #github {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
@@ -130,6 +140,7 @@
         }
     }
     #filezilla {
+        border: 1px solid map-get($colores, color-6);
         background-color: white;
         width: 75px;
         height: 75px;
