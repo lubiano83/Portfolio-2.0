@@ -38,6 +38,8 @@ const Tools = () => {
             <h2>Back-End:</h2>
             <div className="back-end__contenedor">
                 <Foto id="firebase" img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Ffirebase-svgrepo-com.svg?alt=media&token=ffe90477-653b-4046-9277-d05bf3c91901" label="firebase"/>
+                <Foto id="nodeJs" img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fnode-js-svgrepo-com.svg?alt=media&token=5066c33a-41a9-40e0-93c9-0ece291dc0a3" label="nodeJs"/>
+                <Foto id="express" img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fexpress-svgrepo-com.svg?alt=media&token=974a9cf8-2f27-463d-8a30-5cd1382c2f61" label="express"/>
             </div>
           </article> }
           { mostrar2 &&
