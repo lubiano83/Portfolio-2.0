@@ -48,6 +48,7 @@ const Tools = () => {
             <div className="tools__contenedor">
               <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fgithub-icon-svgrepo-com.svg?alt=media&token=825ad433-cee0-4d6c-94b3-ca0500bd31b2" label="github"/>
               <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Ffilezilla-ftp-software-svgrepo-com.svg?alt=media&token=3eeadd5b-cb2e-45bb-8418-6198574b0d57" label="filezilla"/>
+              <Foto img="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/img%2Fpostman-icon-svgrepo-com.svg?alt=media&token=fa003ef0-4cd1-421b-8342-5f035c171881" label="postman"/>
           </div> 
           </article>}
         </div>
