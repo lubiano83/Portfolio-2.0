@@ -87,6 +87,20 @@
         }
     }
 
+    #reactnative {
+        border: 1px solid map-get($colores, color-6);
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        overflow: hidden;
+        border-radius: 10px;
+        #reactnative__foto{
+            height: 100%;
+            aspect-ratio: 1/1;
+            scale: 1;
+        }
+    }
+
     #redux {
         border: 1px solid map-get($colores, color-6);
         background-color: white;
@@ -101,6 +115,34 @@
             
 
             
+        }
+    }
+
+    #nextjs {
+        border: 1px solid map-get($colores, color-6);
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        overflow: hidden;
+        border-radius: 10px;
+        #nextjs__foto{
+            height: 100%;
+            aspect-ratio: 1/1;
+            scale: 0.9;
+        }
+    }
+
+    #tailwind {
+        border: 1px solid map-get($colores, color-6);
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        overflow: hidden;
+        border-radius: 10px;
+        #tailwind__foto{
+            height: 100%;
+            aspect-ratio: 1/1;
+            scale: 0.9;
         }
     }
 }
@@ -142,6 +184,20 @@
         overflow: hidden;
         border-radius: 10px;
         #express__foto{
+            width: 100%;
+            aspect-ratio: 1/1;
+            scale: 0.9;
+        }
+    }
+
+    #mongodb {
+        border: 1px solid map-get($colores, color-6);
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        overflow: hidden;
+        border-radius: 10px;
+        #mongodb__foto{
             width: 100%;
             aspect-ratio: 1/1;
             scale: 0.9;
